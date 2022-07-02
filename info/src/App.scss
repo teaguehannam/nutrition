@@ -1,18 +1,16 @@
-h1 {
-	color: rgb(192,223,68,0.79);
-}
-h2 {
+html, body {
 	margin: 0;
-	font-size: 2rem;
+	padding: 0;
+	// background: url('./bg.png');
+}
+h1 {
+	color: rgba(96,96,96,0.96);
+	font-weight: 100;
+	padding: 0 2vw;
+	font-size: calc(1.4rem + 0.2vw);
 }
 main {
 	padding: 5vh 0 60vh 0;
-}
-h2 {
-	font-weight: 300;
-	color: rgba(20,20,22,1);
-	background: white;
-	text-align: center;
 }
 table {
 	margin: 0 auto;

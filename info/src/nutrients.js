@@ -232,12 +232,18 @@ export const nutrients = [
 		"name": "Sugars, Total NLEA",
 		"unit_name": "G",
 		"nutrient_nbr": 269.3,
+		"notes": [
+			"many sugar types",
+		]
 	},
 	{
 		"id": 1072,
 		"name": "Carbohydrate, other",
 		"unit_name": "G",
 		"nutrient_nbr": 284,
+		"notes": [
+			"many carb types",
+		] 
 	},
 	{
 		"id": 1075,
@@ -303,7 +309,7 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 301,
 		"notes": [
-			"Stored in bones and teeth",
+			"Stored in bones",
 			"Important for coordination",
 		]
 	},
@@ -322,7 +328,7 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 303,
 		"notes": [
-			"Used to make hemoglobin and myoglobin, proteins that carry oxygen throughout the body",
+			"Used to make hemoglobin and myoglobin, proteins that carry oxygen",
 		]
 	},
 	{
@@ -353,7 +359,7 @@ export const nutrients = [
 		"nutrient_nbr": 306,
 		"notes": [
 			"Electrolyte",
-			"Seems to be imporant",
+			"Seems imporant",
 		]
 	},
 	{
@@ -1791,25 +1797,6 @@ export const nutrients = [
 		"nutrient_nbr": 9002,
 		"notes": [
 			"Helps produce ATP",
-		]
-	},
-	{
-		"id": 2036,
-		"name": "Cyanocobalamin",
-		"unit_name": "custom",
-		"nutrient_nbr": 9012,
-		"notes": [
-			"DNA damage mitigation",
-			"Helps form red blood cells"
-		]
-	},
-	{
-		"id": 2036,
-		"name": "Methylcobalamin",
-		"unit_name": "custom",
-		"nutrient_nbr": 9012.5,
-		"notes": [
-			""
 		]
 	},
 ];

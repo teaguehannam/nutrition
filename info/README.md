@@ -5,7 +5,7 @@
 ---
 ### Data sources
 - Food ingredients provided by [Food Data Central](https://fdc.nal.usda.gov/)
-- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) provides expanded compound data
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) provides compound data
 ---
 #### Contact
 ##### Submit a [pull request](https://opensource.com/article/19/7/create-pull-request-github) to add or fix information

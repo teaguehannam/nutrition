@@ -6,4 +6,4 @@
 - custom?
 ---
 ## Database
-#### Data managed per [device browser](https://www.w3.org/TR/IndexedDB/)
+#### Data managed per [device](https://www.w3.org/TR/IndexedDB/)

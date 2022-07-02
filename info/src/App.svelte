@@ -2,34 +2,37 @@
 	import { writable } from 'svelte/store';
 	import { nutrients } from './nutrients.js'; // JSON
 
-	// displayBuf is filterable, reactive, and used to generate HTML below
-	// used by HTML to generate each nutrient into a row
-	const displayBuf = writable(nutrients);
-	let search = new String(); // html value
-
-	// how many nutrients have notes 
-	let nutrientsWithNotes = $displayBuf.filter(n => n.notes).length;
-	let percentComplete = parseInt(nutrientsWithNotes / $displayBuf.length * 100);
+	const nutBuf = writable(nutrients);
+	let search = new String();
+	let nutrientsWithNotes = $nutBuf.filter(n => n.notes).length;
+	let percentComplete = parseInt(nutrientsWithNotes / $nutBuf.length * 100);
 
 	const hdlSearch = () => {
-		let searchBuf =  nutrients.filter(n => n.name.toLowerCase().includes(search.toLowerCase()))
-		displayBuf.set(searchBuf)
+		// filter nutrients where search string is included in nutrient.name
+		let searchBuf =  nutrients.filter(n => n.name.toLowerCase().includes(search.toLowerCase()));
+		nutBuf.set(searchBuf);
 	}
+
 </script>
 
-<h1>{nutrientsWithNotes} out of {$displayBuf.length} have notes [{percentComplete}%]</h1>
 
 <main>
+	
+	<header>
+		<h1>{nutrientsWithNotes} out of {$nutBuf.length} have notes [{percentComplete}%]</h1>
+	</header>
 
 	<table>
+
 		<tr on:keyup={hdlSearch} >
 			<th><input type='text' bind:value={search} placeholder='name' /></th>
-			<th>Notes</th>
+			<th>notes</th>
 		</tr>
-		{#each $displayBuf as nutrient}
+
+		{#each $nutBuf as nutrient}
 			<tr>
 				<td>{nutrient.name}</td>
-				<td class="NoteStack">
+				<td class="Stackem">
 					{#if nutrient.notes}
 						{#each nutrient.notes as note}
 							<code>{note}</code>
@@ -38,5 +41,6 @@
 				</td>
 			</tr>
 		{/each}
+
 	</table>
 </main>
