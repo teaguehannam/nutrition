@@ -1,0 +1,55 @@
+h1 {
+	color: rgb(192,223,68,0.79);
+}
+h2 {
+	margin: 0;
+	font-size: 2rem;
+}
+main {
+	padding: 5vh 0 60vh 0;
+}
+h2 {
+	font-weight: 300;
+	color: rgba(20,20,22,1);
+	background: white;
+	text-align: center;
+}
+table {
+	margin: 0 auto;
+	background: white;
+	text-align: center;
+	border-collapse: collapse;
+	cursor: default;
+	overflow: auto;
+	max-width:  800px;
+	margin:  0 auto;
+}
+tr {
+}
+th {
+	position: sticky;
+	top: 0;
+	background: rgb(255,255,255);
+}
+th > input {
+	width:  calc(100% - 4px);
+	border: unset;
+	text-align: center;
+	font-size: calc(1rem + 0.3vw);
+	line-height: calc(2rem + 1vw + 1vh);
+}
+td {
+	font-size: calc(1rem + 0.3vw);
+	line-height: calc(2rem + 1vw + 1vh);
+}
+td:first-of-type {
+	color: rgb(158,158,164);
+}
+.NoteStack {
+	display: grid;
+	max-height: calc(6rem + 1vw + 1vh);
+	overflow:  auto;
+}
+td > code {
+	font-size: 1rem;
+}
