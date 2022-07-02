@@ -1,6 +1,6 @@
 # Nutrient Info
 ### Features
-- Interactive webpage for nutrients
+- [Interactive webpage for nutrients](https://nutrientinfo.app)
 - API for nutrient data in JSON
 ---
 ### Data sources
