@@ -1,6 +1,7 @@
 # Nutrition
-## Tracker
-- Keep track of metabolic activity for any number of subjects
-## Info
-- Enrich reports with data from FDC and PubChem
 
+## [Info](https://nutrientinfo.app)
+### Provide nutrient/compound data though Food Data Central and PubChem
+---
+## Tracker
+### Create metabolic activity records for subject(s)
