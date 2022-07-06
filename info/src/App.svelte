@@ -13,15 +13,14 @@
 			hdlSearch()
 		}
 	})
-	
+
 	const urlParams = window.location.pathname;
 	const nutBuf = writable(nutrients);
 	let search = new String();
 	let nutrientsWithNotes = $nutBuf.filter(n => n.notes).length;
 	let percentComplete = parseInt(nutrientsWithNotes / $nutBuf.length * 100);
 	
-	// check URL for nutrient
-
+	
 	const hdlSearch = () => {
 		let searchBuf =  nutrients.filter(n => n.name.toLowerCase().includes(search.toLowerCase()));
 		nutBuf.set(searchBuf);
