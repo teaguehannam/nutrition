@@ -1167,60 +1167,99 @@ export const nutrients = [
 		"name": "4:0",
 		"unit_name": "G",
 		"nutrient_nbr": 607,
+		"notes": [
+			"Butyric acid",
+			"Butanoic acid",
+		]
 	},
 	{
 		"id": 1260,
 		"name": "6:0",
 		"unit_name": "G",
 		"nutrient_nbr": 608,
+		"notes": [
+			"Caproic acid",
+			"Hexanoic acid",
+		]
 	},
 	{
 		"id": 1261,
 		"name": "8:0",
 		"unit_name": "G",
 		"nutrient_nbr": 609,
+		"notes": [
+			"Caprylic acid",
+			"Octanoic acid",
+		]
 	},
 	{
 		"id": 1262,
 		"name": "10:0",
 		"unit_name": "G",
 		"nutrient_nbr": 610,
+		"notes": [
+			"Capric acid",
+			"Decanoic acid",
+		]
 	},
 	{
 		"id": 1263,
 		"name": "12:0",
 		"unit_name": "G",
 		"nutrient_nbr": 611,
+		"notes": [
+			"Lauric acid",
+			"Dodecanoic acid",
+		]
 	},
 	{
 		"id": 1264,
 		"name": "14:0",
 		"unit_name": "G",
 		"nutrient_nbr": 612,
+		"notes": [
+			"Myristic acid",
+			"Tetradecanoic acid",
+		]
 	},
 	{
 		"id": 1265,
 		"name": "16:0",
 		"unit_name": "G",
 		"nutrient_nbr": 613,
+		"notes": [
+			"Palmitic acid",
+			"Hexadecanoic acid",
+		]
 	},
 	{
 		"id": 1266,
 		"name": "18:0",
 		"unit_name": "G",
 		"nutrient_nbr": 614,
+		"notes": [
+			"Stearic acid",
+			"Octadecanoic acid",
+		]
 	},
 	{
 		"id": 1267,
 		"name": "20:0",
 		"unit_name": "G",
 		"nutrient_nbr": 615,
+		"notes": [
+			"Arachidic acid",
+			"Icosanoic acid",
+		]
 	},
 	{
 		"id": 1268,
 		"name": "18:1",
 		"unit_name": "G",
 		"nutrient_nbr": 617,
+		"notes": [
+			"",
+		]
 	},
 	{
 		"id": 1269,
@@ -1245,12 +1284,19 @@ export const nutrients = [
 		"name": "22:6 n-3 (DHA)",
 		"unit_name": "G",
 		"nutrient_nbr": 621,
+		"notes": [
+			"Docosahexaenoic acid"
+		]
 	},
 	{
 		"id": 1273,
 		"name": "22:0",
 		"unit_name": "G",
 		"nutrient_nbr": 624,
+		"notes": [
+			"Behenic acid",
+			"Docosanoic acid",
+		]
 	},
 	{
 		"id": 1274,
@@ -1269,6 +1315,9 @@ export const nutrients = [
 		"name": "18:4",
 		"unit_name": "G",
 		"nutrient_nbr": 627,
+		"notes": [
+			"Stearidonic acid"
+		]
 	},
 	{
 		"id": 1277,
@@ -1281,6 +1330,9 @@ export const nutrients = [
 		"name": "20:5 n-3 (EPA)",
 		"unit_name": "G",
 		"nutrient_nbr": 629,
+		"notes": [
+			"Eicosapentaenoic acid"
+		]
 	},
 	{
 		"id": 1279,
@@ -1293,6 +1345,9 @@ export const nutrients = [
 		"name": "22:5 n-3 (DPA)",
 		"unit_name": "G",
 		"nutrient_nbr": 631,
+		"notes": [
+			"Docosapentaenoic acid"
+		]
 	},
 	{
 		"id": 1281,
@@ -1395,6 +1450,10 @@ export const nutrients = [
 		"name": "24:0",
 		"unit_name": "G",
 		"nutrient_nbr": 654,
+		"notes": [
+			"Lignoceric acid",
+			"Tetracosanoic acid",
+		]
 	},
 	{
 		"id": 1303,
@@ -1467,6 +1526,9 @@ export const nutrients = [
 		"name": "18:2 n-6 c,c",
 		"unit_name": "G",
 		"nutrient_nbr": 675,
+		"notes": [
+			"Linoleic acid",
+		]
 	},
 	{
 		"id": 1317,
@@ -1479,6 +1541,9 @@ export const nutrients = [
 		"name": "18:3 n-6 c,c,c",
 		"unit_name": "G",
 		"nutrient_nbr": 685,
+		"notes": [
+			"gamma-Linolenic acid"
+		]
 	},
 	{
 		"id": 1323,
@@ -1550,7 +1615,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 806,
 		"notes": [
-			"prebiotic"
+			"natural storage carbohydrate present in more than 36,000 species of plants",
 		]
 	},
 	{
@@ -1558,24 +1623,37 @@ export const nutrients = [
 		"name": "18:3 n-3 c,c,c (ALA)",
 		"unit_name": "G",
 		"nutrient_nbr": 851,
+		"notes": [
+			"alpha-Linolenic acid",
+			"polyunsaturated Ω3"
+		]
 	},
 	{
 		"id": 1405,
 		"name": "20:3 n-3",
 		"unit_name": "G",
 		"nutrient_nbr": 852,
+		"notes": [
+			""
+		]
 	},
 	{
 		"id": 1406,
 		"name": "20:3 n-6",
 		"unit_name": "G",
 		"nutrient_nbr": 853,
+		"notes": [
+			"Dihomo-γ-linolenic acid"
+		]
 	},
 	{
 		"id": 1408,
 		"name": "20:4 n-6",
 		"unit_name": "G",
 		"nutrient_nbr": 855,
+		"notes": [
+			"Arachidonic acid"
+		]
 	},
 	{
 		"id": 1409,
@@ -1606,6 +1684,9 @@ export const nutrients = [
 		"name": "20:3 n-9",
 		"unit_name": "G",
 		"nutrient_nbr": 861,
+		"notes": [
+			"Mead acid"
+		]
 	},
 	{
 		"id": 2000,

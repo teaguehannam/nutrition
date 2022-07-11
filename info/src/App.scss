@@ -1,53 +1,77 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	// background: url('./bg.png');
+}
+body {
+	background: url('../img/background/night.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+main {
+	padding: 0 2vw;
+	color: white;
+	backdrop-filter: blur(9px);
+	width: calc(94vw - 1rem);
+	max-width: 1224px;
+	margin: 0 auto;
+	box-shadow: rgba(51,51,51,0.6) 0px 48px 100px 0px inset;
 }
 h1 {
-	color: rgba(96,96,96,0.96);
+	color: rgba(240,240,240,0.6);
 	font-weight: 100;
 	padding: 0 2vw;
 	font-size: calc(1.4rem + 0.2vw);
 }
-main {
-	padding: 5vh 0 60vh 0;
-}
 table {
-	margin: 0 auto;
-	background: white;
-	text-align: center;
-	border-collapse: collapse;
-	cursor: default;
-	overflow: auto;
-	max-width:  800px;
-	margin:  0 auto;
+	border-spacing: 0 1.5px;
+}
+td:first-of-type {
+	max-width: 80%;
+	text-indent: calc(1vw + 5px);
 }
 tr {
+	background: rgba(30,31,33,0.6);
+}
+tr:hover {
+	background: rgba(30,31,33,1);
+}
+tr:nth-of-type(even) {
+	background: rgba(40,41,43,0.6);
+}
+tr:nth-of-type(even):hover {
+	background: rgba(40,41,43,1);
+}
+.Stacked {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.Stacked > code {
+	line-height: 1.1rem;
 }
 th {
 	position: sticky;
 	top: 0;
-	background: rgb(255,255,255);
+	background: rgb(24,27,31);
+	line-height: 2rem;
+}
+th:first-of-type {
+	width: 33%;
+}
+th:last-of-type {
+	width: 100%;
 }
 th > input {
-	width:  calc(100% - 4px);
-	border: unset;
 	text-align: center;
-	font-size: calc(1rem + 0.3vw);
-	line-height: calc(2rem + 1vw + 1vh);
+	color: white;
+	font-size: 1.3rem;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	background: rgba(30,31,33,0);
 }
-td {
-	font-size: calc(1rem + 0.3vw);
-	line-height: calc(2rem + 1vw + 1vh);
-}
-td:first-of-type {
-	color: rgb(158,158,164);
-}
-.NoteStack {
-	display: grid;
-	max-height: calc(6rem + 1vw + 1vh);
-	overflow:  auto;
-}
-td > code {
-	font-size: 1rem;
+th > input:hover {
+	background: rgba(30,31,33,1);
+	box-shadow: 0 0 3px 0 white inset;
 }
