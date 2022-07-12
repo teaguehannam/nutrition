@@ -3,7 +3,6 @@
 ## Measureable factors
 - metabolic
 - cardio
-- custom?
 ---
 ## Database
-#### Data managed per [device](https://www.w3.org/TR/IndexedDB/)
+#### Activity reports kept on [device](https://www.w3.org/TR/IndexedDB/)
