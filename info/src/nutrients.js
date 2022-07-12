@@ -173,6 +173,9 @@ export const nutrients = [
 		"name": "Carbohydrate, by summation",
 		"unit_name": "G",
 		"nutrient_nbr": 205.2,
+		"notes": [
+			"Broad category",
+		]
 	},
 	{
 		"id": 1051,
@@ -269,6 +272,9 @@ export const nutrients = [
 		"name": "Fiber, total dietary",
 		"unit_name": "G",
 		"nutrient_nbr": 291,
+		"notes": [
+			"Broad category",
+		]
 	},
 	{
 		"id": 1081,
@@ -276,7 +282,8 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 294,
 		"notes": [
-			""
+			"Component of ribonucleotides from which RNA is built",
+			"Important for gene expresssion"
 		]
 	},
 	{
@@ -284,24 +291,36 @@ export const nutrients = [
 		"name": "Fiber, soluble",
 		"unit_name": "G",
 		"nutrient_nbr": 295,
+		"notes": [
+			"Attracts water, slowing digestion",
+		]
 	},
 	{
 		"id": 1084,
 		"name": "Fiber, insoluble",
 		"unit_name": "G",
 		"nutrient_nbr": 297,
+		"notes": [
+			"Appears to help food pass more quickly",
+		]
 	},
 	{
 		"id": 1085,
 		"name": "Total fat (NLEA)",
 		"unit_name": "G",
 		"nutrient_nbr": 298,
+		"notes": [
+			"Broad category"
+		]
 	},
 	{
 		"id": 1086,
 		"name": "Total sugar alcohols",
 		"unit_name": "G",
 		"nutrient_nbr": 299,
+		"notes": [
+			"Broad category"
+		]
 	},
 	{
 		"id": 1087,
@@ -481,6 +500,9 @@ export const nutrients = [
 		"name": "Vitamin A, IU",
 		"unit_name": "IU",
 		"nutrient_nbr": 318,
+		"notes": [
+			"Group of compounds including retinol, retinal, retinoic acid, and provitamin A carotenoids"
+		]
 	},
 	{
 		"id": 1105,
@@ -498,6 +520,9 @@ export const nutrients = [
 		"name": "Vitamin A, RAE",
 		"unit_name": "UG",
 		"nutrient_nbr": 320,
+		"notes": [
+			"1 IU retinol = 0.3 mcg RAE",
+		]
 	},
 	{
 		"id": 1107,
@@ -516,6 +541,10 @@ export const nutrients = [
 		"name": "Vitamin E (alpha-tocopherol)",
 		"unit_name": "MG",
 		"nutrient_nbr": 323,
+		"notes": [
+			"EU calls it E307",
+		]
+
 	},
 	{
 		"id": 1110,
@@ -550,12 +579,19 @@ export const nutrients = [
 		"name": "25-hydroxycholecalciferol",
 		"unit_name": "UG",
 		"nutrient_nbr": 327,
+		"notes": [
+			"Vitamin D produced endogenously",
+		]
 	},
 	{
 		"id": 1114,
 		"name": "Vitamin D (D2 + D3)",
 		"unit_name": "UG",
 		"nutrient_nbr": 328,
+		"notes": [
+			"D2 ~ Ergocalciferol",
+			"D3 ~ Cholecalciferol",
+		]
 	},
 	{
 		"id": 1116,
@@ -580,12 +616,20 @@ export const nutrients = [
 		"name": "Zeaxanthin",
 		"unit_name": "UG",
 		"nutrient_nbr": 338.2,
+		"notes": [
+			"Carotenoid found in nature",
+			"Used in xanthophyll cycle"
+		]
 	},
 	{
 		"id": 1120,
 		"name": "Cryptoxanthin, beta",
 		"unit_name": "UG",
 		"nutrient_nbr": 334,
+		"notes": [
+			"Member of carotenoid class xanthophylls",
+			"Endogenously converted to retinol",
+		]
 	},
 	{
 		"id": 1121,
@@ -598,6 +642,10 @@ export const nutrients = [
 		"name": "Lycopene",
 		"unit_name": "UG",
 		"nutrient_nbr": 337,
+		"notes": [
+			"Intermediate in biosynthesis of many carotenoids in photosynthetic organisms",
+			"Responsible for yellow, orange, or red pigmentation, photosynthesis, and photoprotection",
+		]
 	},
 	{
 		"id": 1123,
@@ -610,6 +658,9 @@ export const nutrients = [
 		"name": "Vitamin E (label entry primarily)",
 		"unit_name": "IU",
 		"nutrient_nbr": 340,
+		"notes": [
+			"¿Not sure what label entry primarily is?",
+		]
 	},
 	{
 		"id": 1125,
@@ -676,6 +727,10 @@ export const nutrients = [
 		"name": "Vitamin E",
 		"unit_name": "MG_ATE",
 		"nutrient_nbr": 394,
+		"notes": [
+			"Group of eight fat soluble compounds",
+			"α, β, γ, δ, Tocopheryls, Tocotrienols"
+		]
 	},
 	{
 		"id": 1159,
@@ -714,6 +769,11 @@ export const nutrients = [
 		"name": "Thiamin",
 		"unit_name": "MG",
 		"nutrient_nbr": 404,
+		"notes": [
+			"Vitamin B-1",
+			"Helps produce ATP",
+			"Growth and function of various cells",
+		]
 	},
 	{
 		"id": 1166,
@@ -749,6 +809,10 @@ export const nutrients = [
 		"name": "Vitamin B-6",
 		"unit_name": "MG",
 		"nutrient_nbr": 415,
+		"notes": [
+			"Serves as a coenzyme in amino acid, glucose, and lipid metabolism",
+			"Converted to pyridoxal 5'-phosphate (PLP)",
+		]
 	},
 	{
 		"id": 1176,
@@ -765,12 +829,22 @@ export const nutrients = [
 		"name": "Folate, total",
 		"unit_name": "UG",
 		"nutrient_nbr": 417,
+		"notes": [
+	,		"Vitamin-B9",
+			"Folacin",
+			"Helps metabolise amino acids necessary for cell division",
+			"Folate has multiple categorizations"
+		]
 	},
 	{
 		"id": 1178,
 		"name": "Vitamin B-12",
 		"unit_name": "UG",
 		"nutrient_nbr": 418,
+		"notes": [
+			"Cyanocobalamin used to treat B-12 deficiency",
+			"Methylcobalamin features an octahedral cobalt(III) center",
+		]
 	},
 	{
 		"id": 1180,
@@ -778,9 +852,7 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 421,
 		"notes": [
-			"Involved with cellular membranes",
-			"Helps metabolize fats",
-			"Important for DNA integrity",
+			"Cellular membrane substrate",
 		]
 	},
 	{
@@ -789,7 +861,7 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 422,
 		"notes": [
-			"May reverse the affects that road salt has on plants"
+			"May reverse road salt effect has on plants"
 		]
 	},
 	{
@@ -837,18 +909,27 @@ export const nutrients = [
 		"name": "Folate, food",
 		"unit_name": "UG",
 		"nutrient_nbr": 432,
+		"notes": [
+			"¿Naturally occuring folate level in food?"
+		]
 	},
 	{
 		"id": 1188,
 		"name": "5-methyl tetrahydrofolate (5-MTHF)",
 		"unit_name": "UG",
 		"nutrient_nbr": 433,
+		"notes": [
+			"Primary biologically active form of folate used at the cellular level for DNA reproduction, cysteine, and the regulation of homocysteine",
+		]
 	},
 	{
 		"id": 1190,
 		"name": "Folate, DFE",
 		"unit_name": "UG",
 		"nutrient_nbr": 435,
+		"notes": [
+			"DFE ~ Dietary folate equivalents"
+		]
 	},
 	{
 		"id": 1191,
@@ -1134,6 +1215,9 @@ export const nutrients = [
 		"name": "Vitamin E, added",
 		"unit_name": "MG",
 		"nutrient_nbr": 573,
+		"notes": [
+			"Enhanced food product",
+		]
 	},
 	{
 		"id": 1246,
@@ -1161,6 +1245,10 @@ export const nutrients = [
 		"name": "Fatty acids, total saturated",
 		"unit_name": "G",
 		"nutrient_nbr": 606,
+		"notes": [
+			"Group of saturated fats",
+			"Fatty acid chains have all single bonds",
+		]
 	},
 	{
 		"id": 1259,
@@ -1258,7 +1346,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 617,
 		"notes": [
-			"",
+			"5 of these",
 		]
 	},
 	{
@@ -1266,18 +1354,27 @@ export const nutrients = [
 		"name": "18:2",
 		"unit_name": "G",
 		"nutrient_nbr": 618,
+		"notes": [
+			"7 of these"
+		]
 	},
 	{
 		"id": 1270,
 		"name": "18:3",
 		"unit_name": "G",
 		"nutrient_nbr": 619,
+		"notes": [
+			"6 of these"
+		]
 	},
 	{
 		"id": 1271,
 		"name": "20:4",
 		"unit_name": "G",
 		"nutrient_nbr": 620,
+		"notes": [
+			"3 of these"
+		]
 	},
 	{
 		"id": 1272,
@@ -1285,7 +1382,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 621,
 		"notes": [
-			"Docosahexaenoic acid"
+			"Docosahexaenoic acid",
 		]
 	},
 	{
@@ -1303,12 +1400,22 @@ export const nutrients = [
 		"name": "14:1",
 		"unit_name": "G",
 		"nutrient_nbr": 625,
+		"notes": [
+			"Myristovaccenic acid ~ Ω3 (unsaturated)",
+			"Myristoleic acid ~ Ω5 (unsaturated)",
+			"8-Tetradecenoic acid ~ Ω6 (unsaturated)",
+		]
 	},
 	{
 		"id": 1275,
 		"name": "16:1",
 		"unit_name": "G",
 		"nutrient_nbr": 626,
+		"notes": [
+			"Palmitovaccenic ~ Ω5 (unsaturated)",
+			"Palmitoleic  ~ Ω7 (unsaturated)",
+			"Sapienic ~ Ω10 (unsaturated)",
+		]
 	},
 	{
 		"id": 1276,
@@ -1316,7 +1423,8 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 627,
 		"notes": [
-			"Stearidonic acid"
+			"Stearidonic acid",
+			"Moroctic acid",
 		]
 	},
 	{
@@ -1324,6 +1432,10 @@ export const nutrients = [
 		"name": "20:1",
 		"unit_name": "G",
 		"nutrient_nbr": 628,
+		"notes": [
+			"Eicosenoic acid",
+			"Gadoleic acid",
+		]
 	},
 	{
 		"id": 1278,
@@ -1339,6 +1451,10 @@ export const nutrients = [
 		"name": "22:1",
 		"unit_name": "G",
 		"nutrient_nbr": 630,
+		"notes": [
+			"Erucic acid",
+			"Ω9 (monounsaturated)"
+		]
 	},
 	{
 		"id": 1280,
@@ -1346,7 +1462,9 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 631,
 		"notes": [
-			"Docosapentaenoic acid"
+			"Docosapentaenoic acid",
+			"Clupanodonic acid",
+			"Ω3 (monounsaturated)"
 		]
 	},
 	{
@@ -1408,12 +1526,18 @@ export const nutrients = [
 		"name": "Fatty acids, total monounsaturated",
 		"unit_name": "G",
 		"nutrient_nbr": 645,
+		"notes": [
+			"includes many monounsaturated fatty acids"
+		]
 	},
 	{
 		"id": 1293,
 		"name": "Fatty acids, total polyunsaturated",
 		"unit_name": "G",
 		"nutrient_nbr": 646,
+		"notes": [
+			"includes many polyunsaturated fatty acids"
+		]
 	},
 	{
 		"id": 1294,
@@ -1438,6 +1562,9 @@ export const nutrients = [
 		"name": "15:0",
 		"unit_name": "G",
 		"nutrient_nbr": 652,
+		"notes": [
+			"Pentadecanoic acid",
+		]
 	},
 	{
 		"id": 1300,
@@ -1502,12 +1629,21 @@ export const nutrients = [
 		"name": "24:1 c",
 		"unit_name": "G",
 		"nutrient_nbr": 671,
+		"notes": [
+			"Nervonic acid",
+			"Elongated product of oleic acid",
+			"Ω9 (unsaturated)"
+		]
 	},
 	{
 		"id": 1313,
 		"name": "20:2 n-6 c,c",
 		"unit_name": "G",
 		"nutrient_nbr": 672,
+		"notes": [
+			"Dihomo-linoleic acid",
+			"Ω6 (unsaturated)"
+		]
 	},
 	{
 		"id": 1314,
@@ -1542,7 +1678,8 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 685,
 		"notes": [
-			"gamma-Linolenic acid"
+			"Ω6 (polyunsaturated)",
+			"γ-Linolenic acid (isomer of 18:2 n-6 c,c)",
 		]
 	},
 	{
@@ -1580,6 +1717,9 @@ export const nutrients = [
 		"name": "13:0",
 		"unit_name": "G",
 		"nutrient_nbr": 696,
+		"notes": [
+			"Tridecanoic acid",
+		]
 	},
 	{
 		"id": 1333,
@@ -1592,6 +1732,10 @@ export const nutrients = [
 		"name": "22:2",
 		"unit_name": "G",
 		"nutrient_nbr": 698,
+		"notes": [
+			"docossadienoic acid",
+			"brassic acid",
+		]
 	},
 	{
 		"id": 1335,
@@ -1624,8 +1768,8 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 851,
 		"notes": [
-			"alpha-Linolenic acid",
-			"polyunsaturated Ω3"
+			"Ω3 (polyunsaturated)",
+			"α-Linolenic acid",
 		]
 	},
 	{
@@ -1634,7 +1778,8 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 852,
 		"notes": [
-			""
+			"Ω3 (polyunsaturated)",
+			"Epoxyeicosatrienoic acid",
 		]
 	},
 	{
@@ -1643,7 +1788,9 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 853,
 		"notes": [
-			"Dihomo-γ-linolenic acid"
+			"Ω6 (polyunsaturated)",
+			"Dihomo-γ-linolenic acid",
+			"Sciadonic acid",
 		]
 	},
 	{
@@ -1652,7 +1799,9 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 855,
 		"notes": [
-			"Arachidonic acid"
+			"Ω6 (polyunsaturated)",
+			"Arachidonic acid",
+			"Osbond acid",
 		]
 	},
 	{
@@ -1660,6 +1809,9 @@ export const nutrients = [
 		"name": "18:3i",
 		"unit_name": "G",
 		"nutrient_nbr": 856,
+		"notes": [
+			"Somthing about conjugated linolenic acid (three double bonds)"
+		]
 	},
 	{
 		"id": 1410,
@@ -1678,6 +1830,9 @@ export const nutrients = [
 		"name": "18:1-11 t (18:1t n-7)",
 		"unit_name": "G",
 		"nutrient_nbr": 859,
+		"notes": [
+			"¿vaccenic acid?"
+		]
 	},
 	{
 		"id": 1414,
@@ -1699,36 +1854,62 @@ export const nutrients = [
 		"name": "5:0",
 		"unit_name": "G",
 		"nutrient_nbr": 632,
+		"notes": [
+			"Valeric acid",
+			"Pentanoic acid",
+		]
 	},
 	{
 		"id": 2004,
 		"name": "7:0",
 		"unit_name": "G",
 		"nutrient_nbr": 633,
+		"notes": [
+			"Enanthic acid",
+			"Heptanoic acid"
+		]
 	},
 	{
 		"id": 2005,
 		"name": "9:0",
 		"unit_name": "G",
 		"nutrient_nbr": 634,
+		"notes": [
+			"Pelargonic acid",
+			"Nonanoic acid",
+			"Esters and salts are called pelargonates or nanoates",
+		]
 	},
 	{
 		"id": 2006,
 		"name": "21:0",
 		"unit_name": "G",
 		"nutrient_nbr": 681,
+		"notes": [
+			"Heneicosylic acid",
+			"Heneicosanoic acid",
+			"Related to viscous materials"
+		]
 	},
 	{
 		"id": 2007,
 		"name": "23:0",
 		"unit_name": "G",
 		"nutrient_nbr": 682,
+		"notes": [
+			"Tricosylic acid",
+			"Tricosanoic acid"
+		]
 	},
 	{
 		"id": 2008,
 		"name": "12:1",
 		"unit_name": "G",
 		"nutrient_nbr": 635,
+		"notes": [
+			"Lauroleic acid",
+			"Ω3 (unsaturated)"
+		]
 	},
 	{
 		"id": 2009,
@@ -1795,6 +1976,10 @@ export const nutrients = [
 		"name": "22:3",
 		"unit_name": "G",
 		"nutrient_nbr": 683,
+		"notes": [
+			"Docosatrienoic Acid",
+			"Polyunsaturated",
+		]
 	},
 	{
 		"id": 2022,
@@ -1813,12 +1998,20 @@ export const nutrients = [
 		"name": "22:5 c",
 		"unit_name": "G",
 		"nutrient_nbr": 838,
+		"notes": [
+			"Osbond acid",
+			"Ω6 (unsaturated)"
+		]
 	},
 	{
 		"id": 2025,
 		"name": "22:6 c",
 		"unit_name": "G",
 		"nutrient_nbr": 839,
+		"notes": [
+			"Docosahexaenoic acid",
+			"Can be synthesized from α-linolenic acid",
+		]
 	},
 	{
 		"id": 2026,
@@ -1844,7 +2037,7 @@ export const nutrients = [
 		"unit_name": "UG",
 		"nutrient_nbr": 335,
 		"notes": [
-			"Multiple roles in antioxidant defense",
+			"¿difference from beta variant?",
 		]
 	},
 	{
@@ -1852,32 +2045,8 @@ export const nutrients = [
 		"name": "Total dietary fiber (AOAC 2011.25)",
 		"unit_name": "G",
 		"nutrient_nbr": 293,
-	},
-	{
-		"id": 2034,
-		"name": "--- --- ---",
-		"unit_name": "custom",
-		"nutrient_nbr": 9001,
 		"notes": [
-			"--- end of FDC nutrient schema ---",
-		]
-	},
-	{
-		"id": 2034,
-		"name": "Pyridoxine",
-		"unit_name": "custom",
-		"nutrient_nbr": 9001,
-		"notes": [
-			"Precursor to a useful enzyme",
-		]
-	},
-	{
-		"id": 2035,
-		"name": "Thiamine",
-		"unit_name": "custom",
-		"nutrient_nbr": 9002,
-		"notes": [
-			"Helps produce ATP",
+			"Group of of insoluble, soluble, and total dietary fiber (IDF, SDF, and TDF, respectively), inclusive of the resistant starch (RS) and the water:alcohol soluble nondigestible oligosaccharides and polysaccharides of DP under 3"
 		]
 	},
 ];

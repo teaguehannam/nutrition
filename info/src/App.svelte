@@ -12,6 +12,7 @@
 
 	function hdlSearch() {
 		let searchBuf =  nutrients.filter(n => n.name.toLowerCase().includes(search.toLowerCase()));
+		// searchable notes?
 		nutBuf.set(searchBuf);
 	}
 
@@ -26,10 +27,9 @@
 	})
 </script>
 
+<h1>{percentComplete}% have notes</h1>
 
 <main>
-	
-	<h1>{nutrientsWithNotes} out of {nutrients.length} have notes [{percentComplete}%]</h1>
 
 	<table>
 		<tr on:keyup={ () => hdlSearch() } >
