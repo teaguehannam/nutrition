@@ -33,7 +33,7 @@
 
 	<table>
 		<tr on:keyup={ () => hdlSearch() } >
-			<th><input type='text' bind:value={search} placeholder='name' /></th>
+			<th><input type='text' bind:value={search} placeholder='name' /></th> 
 			<th>notes</th>
 		</tr>
 		{#each $nutBuf as nutrient}

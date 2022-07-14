@@ -356,8 +356,7 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 304,
 		"notes": [
-			"Involved in many cellular reactions, including making muscle proteins",
-			"Helps with nerve and brain development",
+			"Involved in many cellular reactions, including making muscle",
 		]
 	},
 	{
@@ -368,7 +367,6 @@ export const nutrients = [
 		"notes": [
 			"Formation of bones and teeth matrix mineralization",
 			"Important role in how the body uses carbohydrates and fats",
-			"Needed to make proteins for growth, and repair of cells",
 		]
 	},
 	{
@@ -397,7 +395,7 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 308,
 		"notes": [
-			"Protect cells from damage",
+			"Protects cells",
 			"Exessive amounts bad",
 		]
 	},
@@ -428,8 +426,8 @@ export const nutrients = [
 		"unit_name": "UG",
 		"nutrient_nbr": 311,
 		"notes": [
-			"Component of Vitamin B12, supports production of red blood cells",
-			"Trace amounts needed to stay healthy, large amounts are toxic"
+			"Part of cobalamin component of Vitamin B-12",
+			"Trace amounts healthy, large amounts toxic"
 		]
 	},
 	{
@@ -464,7 +462,7 @@ export const nutrients = [
 		"unit_name": "UG",
 		"nutrient_nbr": 314,
 		"notes": [
-			"Nessesary for processes",
+			"Necessary for processes",
 		]
 	},
 	{
@@ -510,9 +508,8 @@ export const nutrients = [
 		"unit_name": "UG",
 		"nutrient_nbr": 319,
 		"notes": [
-			"Helps preserve night vision",
-			"Involved with production and function of white blood cells",
-			"Reduces wrinkles topically with minor increase of dryness",
+			"Helps preserve night vision (not topically)",
+			"Topically reduces wrinkles with minor increase of dryness",
 		]
 	},
 	{
@@ -535,6 +532,10 @@ export const nutrients = [
 		"name": "Carotene, alpha",
 		"unit_name": "UG",
 		"nutrient_nbr": 322,
+		"notes": [
+			"second most common form of carotene",
+			"found in carrots, sweet potatos, pumpkins"
+		]
 	},
 	{
 		"id": 1109,
@@ -544,7 +545,6 @@ export const nutrients = [
 		"notes": [
 			"EU calls it E307",
 		]
-
 	},
 	{
 		"id": 1110,
@@ -589,8 +589,8 @@ export const nutrients = [
 		"unit_name": "UG",
 		"nutrient_nbr": 328,
 		"notes": [
-			"D2 ~ Ergocalciferol",
-			"D3 ~ Cholecalciferol",
+			"D2 = ergocalciferol",
+			"D3 = cholecalciferol",
 		]
 	},
 	{
@@ -659,7 +659,7 @@ export const nutrients = [
 		"unit_name": "IU",
 		"nutrient_nbr": 340,
 		"notes": [
-			"¿Not sure what label entry primarily is?",
+			"label entry primarily..?",
 		]
 	},
 	{
@@ -710,7 +710,7 @@ export const nutrients = [
 		"unit_name": "UG",
 		"nutrient_nbr": 354,
 		"notes": [
-			"Affects the way the body handles other minerals such as calcium, magnesium, and phosphorus",
+			"Helps in handling other minerals such as calcium, magnesium, and phosphorus",
 		]
 	},
 	{
@@ -830,10 +830,8 @@ export const nutrients = [
 		"unit_name": "UG",
 		"nutrient_nbr": 417,
 		"notes": [
-	,		"Vitamin-B9",
-			"Folacin",
-			"Helps metabolise amino acids necessary for cell division",
-			"Folate has multiple categorizations"
+			"Vitamin-B9 | Folacin",
+			"Helps metabolise amino for cell division",
 		]
 	},
 	{
@@ -842,8 +840,8 @@ export const nutrients = [
 		"unit_name": "UG",
 		"nutrient_nbr": 418,
 		"notes": [
-			"Cyanocobalamin used to treat B-12 deficiency",
-			"Methylcobalamin features an octahedral cobalt(III) center",
+			"Methylcobalamin natural",
+			"Cyanocobalamin & hydroxocobalamin manufactured"
 		]
 	},
 	{
@@ -861,7 +859,7 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 422,
 		"notes": [
-			"May reverse road salt effect has on plants"
+			"May reverse road salt effect toxicity in plants"
 		]
 	},
 	{
@@ -936,12 +934,18 @@ export const nutrients = [
 		"name": "10-Formyl folic acid (10HCOFA)",
 		"unit_name": "UG",
 		"nutrient_nbr": 436,
+		"notes": [
+			"Natural product found in Capsicum annuum var. annuum"
+		]
 	},
 	{
 		"id": 1192,
 		"name": "5-Formyltetrahydrofolic acid (5-HCOH4",
 		"unit_name": "UG",
 		"nutrient_nbr": 437,
+		"notes": [
+			"Folate coenzyme",
+		]
 	},
 	{
 		"id": 1194,
@@ -1058,7 +1062,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 508,
 		"notes": [
-			"Precursor to tyrosine",
+			"Endogenous building block protein",
 			"Increases release of Cholecystokinin"
 		]
 	},
@@ -1108,8 +1112,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 513,
 		"notes": [
-			"Source of energy for muscles and central nervous system",
-			"Breaks down tryptophan and Vitamin B6",
+			"Source of energy for muscles",
 			"Strengthens immune system",
 			"Help body use sugar",
 		]
@@ -1131,7 +1134,7 @@ export const nutrients = [
 		"nutrient_nbr": 515,
 		"notes": [
 			"Precursor to glutamate",
-			"Helps communication between axon and dendrites",
+			"",
 		]
 	},
 	{
@@ -1139,6 +1142,9 @@ export const nutrients = [
 		"name": "Glycine",
 		"unit_name": "G",
 		"nutrient_nbr": 516,
+		"links": [
+			"http://www.chm.bris.ac.uk/motm/glycine/glycineh.htm"
+		],
 		"notes": [
 			"Inhibitory neurotransmitter",
 			"Used to create proteins",
@@ -1172,6 +1178,10 @@ export const nutrients = [
 		"name": "Hydroxyproline",
 		"unit_name": "G",
 		"nutrient_nbr": 521,
+		"notes": [
+			"Big role in permiting sharp twisting of the collagen helix",
+			"Found in plant cell walls",
+		]
 	},
 	{
 		"id": 1232,
@@ -1209,6 +1219,9 @@ export const nutrients = [
 		"name": "Sugars, added",
 		"unit_name": "G",
 		"nutrient_nbr": 539,
+		"notes": [
+			"Additional sugar",
+		]
 	},
 	{
 		"id": 1242,
@@ -1216,7 +1229,7 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 573,
 		"notes": [
-			"Enhanced food product",
+			"Additional Vitamin E",
 		]
 	},
 	{
@@ -1224,6 +1237,9 @@ export const nutrients = [
 		"name": "Vitamin B-12, added",
 		"unit_name": "UG",
 		"nutrient_nbr": 578,
+		"notes": [
+			"Additional Vitamin B-12",
+		]
 	},
 	{
 		"id": 1253,
@@ -1237,7 +1253,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 605,
 		"notes": [
-			"food processing byproduct",
+			"Processing byproduct",
 		]
 	},
 	{
@@ -1247,7 +1263,7 @@ export const nutrients = [
 		"nutrient_nbr": 606,
 		"notes": [
 			"Group of saturated fats",
-			"Fatty acid chains have all single bonds",
+
 		]
 	},
 	{
@@ -1256,8 +1272,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 607,
 		"notes": [
-			"Butyric acid",
-			"Butanoic acid",
+			"Butyric | Butanoic",
 		]
 	},
 	{
@@ -1266,8 +1281,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 608,
 		"notes": [
-			"Caproic acid",
-			"Hexanoic acid",
+			"Caproic acid | Hexanoic acid",
 		]
 	},
 	{
@@ -1276,8 +1290,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 609,
 		"notes": [
-			"Caprylic acid",
-			"Octanoic acid",
+			"Caprylic | Octanoic",
 		]
 	},
 	{
@@ -1286,8 +1299,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 610,
 		"notes": [
-			"Capric acid",
-			"Decanoic acid",
+			"Capric acid | Decanoic acid",
 		]
 	},
 	{
@@ -1296,8 +1308,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 611,
 		"notes": [
-			"Lauric acid",
-			"Dodecanoic acid",
+			"Lauric | Dodecanoic",
 		]
 	},
 	{
@@ -1306,8 +1317,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 612,
 		"notes": [
-			"Myristic acid",
-			"Tetradecanoic acid",
+			"Myristic | Tetradecanoic",
 		]
 	},
 	{
@@ -1316,8 +1326,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 613,
 		"notes": [
-			"Palmitic acid",
-			"Hexadecanoic acid",
+			"Palmitic | Hexadecanoic",
 		]
 	},
 	{
@@ -1326,8 +1335,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 614,
 		"notes": [
-			"Stearic acid",
-			"Octadecanoic acid",
+			"Stearic | Octadecanoic",
 		]
 	},
 	{
@@ -1336,8 +1344,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 615,
 		"notes": [
-			"Arachidic acid",
-			"Icosanoic acid",
+			"Arachidic | Icosanoic",
 		]
 	},
 	{
@@ -1346,7 +1353,10 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 617,
 		"notes": [
-			"5 of these",
+			"18:1 t",
+			"18:1 c",
+			"18:1-11 t (18:1t n-7)",
+			"- group catagory -"
 		]
 	},
 	{
@@ -1355,7 +1365,14 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 618,
 		"notes": [
-			"7 of these"
+			"18:2 t not further defined",
+			"18:2 i",
+			"18:2 t,t",
+			"18:2 CLAs",
+			"18:2 n-6 c,c",
+			"18:2 c",
+			"- group catagory -",
+			"octadecadienoic | linoleic",
 		]
 	},
 	{
@@ -1364,7 +1381,12 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 619,
 		"notes": [
-			"6 of these"
+			"18:3 n-6 c,c,c",
+			"18:3i",
+			"18:3 c",
+			"18:3 t",
+			"- group catagory -",
+			"octadecatrienoic | linolenic",
 		]
 	},
 	{
@@ -1373,7 +1395,10 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 620,
 		"notes": [
-			"3 of these"
+			"20:4 n-6",
+			"20:4 c",
+			"- group catagory -",
+			"eicosatetraenoic | arachidonic",
 		]
 	},
 	{
@@ -1443,7 +1468,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 629,
 		"notes": [
-			"Eicosapentaenoic acid"
+			"Eicosapentaenoic | timnodonic",
 		]
 	},
 	{
@@ -1453,7 +1478,7 @@ export const nutrients = [
 		"nutrient_nbr": 630,
 		"notes": [
 			"Erucic acid",
-			"Ω9 (monounsaturated)"
+			"Ω9 (monounsaturated)",
 		]
 	},
 	{
@@ -1462,8 +1487,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 631,
 		"notes": [
-			"Docosapentaenoic acid",
-			"Clupanodonic acid",
+			"Docosapentaenoic | Clupanodonic acid",
 			"Ω3 (monounsaturated)"
 		]
 	},
@@ -1505,12 +1529,18 @@ export const nutrients = [
 		"name": "Brascasterol",
 		"unit_name": "MG",
 		"nutrient_nbr": 640,
+		"notes": [
+			"did you mean Brassicasterol?"
+		]
 	},
 	{
 		"id": 1288,
 		"name": "Beta-sitosterol",
 		"unit_name": "MG",
 		"nutrient_nbr": 641,
+		"notes": [
+			"Type of phytosterol",
+		]
 	},
 	{
 		"id": 1289,
@@ -1518,7 +1548,7 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 642,
 		"notes": [
-			"natural phytosterol"
+			"Type of phytosterol"
 		]
 	},
 	{
@@ -1527,7 +1557,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 645,
 		"notes": [
-			"includes many monounsaturated fatty acids"
+			"group of monounsaturated fats"
 		]
 	},
 	{
@@ -1536,7 +1566,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 646,
 		"notes": [
-			"includes many polyunsaturated fatty acids"
+			"group of polyunsaturated fats"
 		]
 	},
 	{
@@ -1578,8 +1608,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 654,
 		"notes": [
-			"Lignoceric acid",
-			"Tetracosanoic acid",
+			"Lignoceric | Tetracosanoic",
 		]
 	},
 	{
@@ -1630,9 +1659,8 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 671,
 		"notes": [
-			"Nervonic acid",
-			"Elongated product of oleic acid",
-			"Ω9 (unsaturated)"
+			"cis-tetracosenoic | nervonic",
+			"Ω9 (monounsaturated)"
 		]
 	},
 	{
@@ -1640,10 +1668,6 @@ export const nutrients = [
 		"name": "20:2 n-6 c,c",
 		"unit_name": "G",
 		"nutrient_nbr": 672,
-		"notes": [
-			"Dihomo-linoleic acid",
-			"Ω6 (unsaturated)"
-		]
 	},
 	{
 		"id": 1314,
@@ -1726,6 +1750,9 @@ export const nutrients = [
 		"name": "15:1",
 		"unit_name": "G",
 		"nutrient_nbr": 697,
+		"notes": [
+			"Pentadecenoic"
+		]
 	},
 	{
 		"id": 1334,
@@ -1733,8 +1760,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 698,
 		"notes": [
-			"docossadienoic acid",
-			"brassic acid",
+			"Docossadienoic | brassic",
 		]
 	},
 	{
@@ -1800,8 +1826,8 @@ export const nutrients = [
 		"nutrient_nbr": 855,
 		"notes": [
 			"Ω6 (polyunsaturated)",
-			"Arachidonic acid",
-			"Osbond acid",
+			"Arachidonic | Osbond",
+			"Found in cupuaçu butter"
 		]
 	},
 	{
@@ -1831,7 +1857,8 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 859,
 		"notes": [
-			"¿vaccenic acid?"
+			"vaccenic i think",
+			"Ω7 is my guess"
 		]
 	},
 	{
@@ -1848,6 +1875,9 @@ export const nutrients = [
 		"name": "Sugars, total including NLEA",
 		"unit_name": "G",
 		"nutrient_nbr": 269,
+		"notes": [
+			"Nutrition Labeling and Education Act of 1990 thing"
+		]
 	},
 	{
 		"id": 2003,
@@ -1855,8 +1885,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 632,
 		"notes": [
-			"Valeric acid",
-			"Pentanoic acid",
+			"Valeric | Pentanoic"
 		]
 	},
 	{
@@ -1865,8 +1894,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 633,
 		"notes": [
-			"Enanthic acid",
-			"Heptanoic acid"
+			"Enanthic | Heptanoic",
 		]
 	},
 	{
@@ -1875,9 +1903,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 634,
 		"notes": [
-			"Pelargonic acid",
-			"Nonanoic acid",
-			"Esters and salts are called pelargonates or nanoates",
+			"Esters and salts called pelargonates and nanoates",
 		]
 	},
 	{
@@ -1886,9 +1912,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 681,
 		"notes": [
-			"Heneicosylic acid",
-			"Heneicosanoic acid",
-			"Related to viscous materials"
+			"Heneicosylic | Heneicosanoic",
 		]
 	},
 	{
@@ -1897,8 +1921,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 682,
 		"notes": [
-			"Tricosylic acid",
-			"Tricosanoic acid"
+			"Tricosylic | Tricosanoic",
 		]
 	},
 	{
@@ -2030,12 +2053,19 @@ export const nutrients = [
 		"name": "trans-Lycopene",
 		"unit_name": "UG",
 		"nutrient_nbr": 337.2,
+		"notes": [
+			"Carotenoid hydrocarbon",
+			"Intermediate in the biosynthesis of many carotenoid compounds"
+		]
 	},
 	{
 		"id": 2032,
 		"name": "Cryptoxanthin, alpha",
 		"unit_name": "UG",
 		"nutrient_nbr": 335,
+		"links": [
+			"https://pubmed.ncbi.nlm.nih.gov/20807466/"
+		],
 		"notes": [
 			"¿difference from beta variant?",
 		]
