@@ -12,9 +12,10 @@ body {
 h1 {
 	color: rgba(240,240,240,0.6);
 	font-weight: 100;
-	padding: 0 2vw;
+	text-align: center;
 	font-size: calc(1.4rem + 0.2vw);
 	position: fixed;
+	width: 100vw;
 	top: 0;
 	left: 0;
 }
@@ -23,7 +24,7 @@ main {
 	backdrop-filter: blur(9px);
 	width: calc(94vw - 1rem);
 	max-width: 1224px;
-	margin: 20vh auto;
+	margin: 4rem auto 50vh auto;
 	padding: 12px;
 	box-shadow: rgba(30,31,33,0.6) 0 0 1.2rem 0.3rem inset;
 }

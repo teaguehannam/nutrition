@@ -7,12 +7,13 @@
 	const urlParams = window.location.pathname;
 	const nutBuf = writable(nutrients);
 	let search = new String();
-	let nutrientsWithNotes = $nutBuf.filter( n => n.notes ).length;
-	let percentComplete = parseInt( nutrientsWithNotes / $nutBuf.length * 100 );
+	let nutrientsWithNotes = $nutBuf.filter(n => n.notes).length;
+	let percentComplete = parseInt(nutrientsWithNotes / $nutBuf.length * 100);
 
 	function hdlSearch() {
-		let searchBuf =  nutrients.filter(n => n.name.toLowerCase().includes(search.toLowerCase()));
-		// searchable notes?
+		let searchBuf =  nutrients.filter(n => {
+			n.name.toLowerCase().includes(search.toLowerCase())
+		});
 		nutBuf.set(searchBuf);
 	}
 
@@ -27,7 +28,7 @@
 	})
 </script>
 
-<h1>{percentComplete}% have notes</h1>
+<h1>{percentComplete}% have notes [{nutrientsWithNotes}/{nutrients.length}]</h1>
 
 <main>
 

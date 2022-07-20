@@ -526,6 +526,10 @@ export const nutrients = [
 		"name": "Carotene, beta",
 		"unit_name": "UG",
 		"nutrient_nbr": 321,
+		"notes": [
+			"Antioxidant",
+			"Protects against destructive effects of ultraviolet light"
+		]
 	},
 	{
 		"id": 1108,
@@ -543,7 +547,8 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 323,
 		"notes": [
-			"EU calls it E307",
+			"E307",
+			"Synthetic"
 		]
 	},
 	{
@@ -636,6 +641,10 @@ export const nutrients = [
 		"name": "Lutein",
 		"unit_name": "UG",
 		"nutrient_nbr": 338.1,
+		"notes": [
+			"Concentrated in the macula, which is responsible for three-color vision",
+			"Precise functional role not determined"
+,		]
 	},
 	{
 		"id": 1122,
@@ -652,6 +661,9 @@ export const nutrients = [
 		"name": "Lutein + zeaxanthin",
 		"unit_name": "UG",
 		"nutrient_nbr": 338,
+		"notes": [
+			"Believed to play a key role in healthy vision",
+		]
 	},
 	{
 		"id": 1124,
@@ -667,42 +679,66 @@ export const nutrients = [
 		"name": "Tocopherol, beta",
 		"unit_name": "MG",
 		"nutrient_nbr": 341,
+		"notes": [
+			"Vitamin E family",
+		]
 	},
 	{
 		"id": 1126,
 		"name": "Tocopherol, gamma",
 		"unit_name": "MG",
 		"nutrient_nbr": 342,
+		"notes": [
+			"Vitamin E (synthetic)",
+			"E308"
+		]
 	},
 	{
 		"id": 1127,
 		"name": "Tocopherol, delta",
 		"unit_name": "MG",
 		"nutrient_nbr": 343,
+		"notes": [
+			"Vitamin E (synthetic)",
+			"E309",
+		]
 	},
 	{
 		"id": 1128,
 		"name": "Tocotrienol, alpha",
 		"unit_name": "MG",
 		"nutrient_nbr": 344,
+		"notes": [
+			"Vitamin E (Synthetic)",
+			"E307",
+		]
 	},
 	{
 		"id": 1129,
 		"name": "Tocotrienol, beta",
 		"unit_name": "MG",
 		"nutrient_nbr": 345,
+		"notes": [
+			"Vitamin E family",
+		]
 	},
 	{
 		"id": 1130,
 		"name": "Tocotrienol, gamma",
 		"unit_name": "MG",
 		"nutrient_nbr": 346,
+		"notes": [
+			"Vitamin E family",
+		]
 	},
 	{
 		"id": 1131,
 		"name": "Tocotrienol, delta",
 		"unit_name": "MG",
 		"nutrient_nbr": 347,
+		"notes": [
+			"Vitamin E family",
+		]
 	},
 	{
 		"id": 1137,
@@ -1246,6 +1282,9 @@ export const nutrients = [
 		"name": "Cholesterol",
 		"unit_name": "MG",
 		"nutrient_nbr": 601,
+		"notes": [
+			"Group of lipids"
+		]
 	},
 	{
 		"id": 1257,
@@ -1281,7 +1320,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 608,
 		"notes": [
-			"Caproic acid | Hexanoic acid",
+			"Caproic | Hexanoic",
 		]
 	},
 	{
@@ -1299,7 +1338,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 610,
 		"notes": [
-			"Capric acid | Decanoic acid",
+			"Capric | Decanoic",
 		]
 	},
 	{
@@ -1407,7 +1446,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 621,
 		"notes": [
-			"Docosahexaenoic acid",
+			"Docosahexaenoic",
 		]
 	},
 	{
@@ -1416,8 +1455,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 624,
 		"notes": [
-			"Behenic acid",
-			"Docosanoic acid",
+			"Behenic | Docosanoic",
 		]
 	},
 	{
@@ -1448,8 +1486,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 627,
 		"notes": [
-			"Stearidonic acid",
-			"Moroctic acid",
+			"Stearidonic | Moroctic",
 		]
 	},
 	{
@@ -1458,8 +1495,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 628,
 		"notes": [
-			"Eicosenoic acid",
-			"Gadoleic acid",
+			"Eicosenoic | Gadoleic",
 		]
 	},
 	{
@@ -1468,7 +1504,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 629,
 		"notes": [
-			"Eicosapentaenoic | timnodonic",
+			"Eicosapentaenoic | tTmnodonic",
 		]
 	},
 	{
@@ -1593,7 +1629,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 652,
 		"notes": [
-			"Pentadecanoic acid",
+			"Pentadecanoic",
 		]
 	},
 	{
@@ -1742,7 +1778,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 696,
 		"notes": [
-			"Tridecanoic acid",
+			"Tridecanoic",
 		]
 	},
 	{
@@ -1795,7 +1831,7 @@ export const nutrients = [
 		"nutrient_nbr": 851,
 		"notes": [
 			"Ω3 (polyunsaturated)",
-			"α-Linolenic acid",
+			"α-Linolenic",
 		]
 	},
 	{
@@ -1805,7 +1841,7 @@ export const nutrients = [
 		"nutrient_nbr": 852,
 		"notes": [
 			"Ω3 (polyunsaturated)",
-			"Epoxyeicosatrienoic acid",
+			"Epoxyeicosatrienoic",
 		]
 	},
 	{
@@ -1815,8 +1851,8 @@ export const nutrients = [
 		"nutrient_nbr": 853,
 		"notes": [
 			"Ω6 (polyunsaturated)",
-			"Dihomo-γ-linolenic acid",
-			"Sciadonic acid",
+			"Dihomo-γ-linolenic",
+			"Sciadonic",
 		]
 	},
 	{
@@ -1836,7 +1872,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 856,
 		"notes": [
-			"Somthing about conjugated linolenic acid (three double bonds)"
+			"Somthing about conjugated linolenic (three double bonds)"
 		]
 	},
 	{
@@ -1930,7 +1966,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 635,
 		"notes": [
-			"Lauroleic acid",
+			"Lauroleic",
 			"Ω3 (unsaturated)"
 		]
 	},
@@ -2000,7 +2036,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 683,
 		"notes": [
-			"Docosatrienoic Acid",
+			"Docosatrienoic",
 			"Polyunsaturated",
 		]
 	},
@@ -2032,7 +2068,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 839,
 		"notes": [
-			"Docosahexaenoic acid",
+			"Docosahexaenoic",
 			"Can be synthesized from α-linolenic acid",
 		]
 	},
