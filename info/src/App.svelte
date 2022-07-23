@@ -5,22 +5,33 @@
 
 	const nutBuf = writable(nutrients);
 	const urlParams = window.location.pathname;
-	let search = new String();
+
+	let search = new String()
 
 	onMount(() => {
-		// set URL path to search input
-		if (urlParams !== '/') {
+		
+		if (urlParams.slice(0, 4) === '/api') {
+			// set search to second part of path
+			search = decodeURI(urlParams.substring(2))	
+			let filtered = nutrients.filter( n => n.name.includes(search) )
+			// TODO:: send filtered as JSON response
+			console.log(filtered);
+
+		} else if (urlParams !== '/') {
+			// set first part of path to search input 
 			search = decodeURI(urlParams.substring(1))
 			if (search.includes('_')) {
+				// change underscores to spaces
 				search = search.replace(/_/g, ' ');
 			}
-			hdlSearch() 
+			hdlSearch() // filter nutrients based on search
 		}
+
 	})
 
 	function hdlSearch() {
 		// search nutrients for nutrient.name === search
-		let filtered =  nutrients.filter(n => n.name.includes(search) );
+		let filtered =  nutrients.filter( n => n.name.includes(search) );
 		nutBuf.set(filtered);
 	}
 
