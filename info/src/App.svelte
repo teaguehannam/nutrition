@@ -12,9 +12,9 @@
 		
 		if (urlParams.slice(0, 4) === '/api') {
 			// set search to second part of path
-			search = decodeURI(urlParams.substring(2))	
+			search = decodeURI(urlParams.substring(5))	
 			let filtered = nutrients.filter( n => n.name.includes(search) )
-			// TODO:: send filtered as JSON response
+			// TODO:: return filtered as JSON response
 			console.log(filtered);
 
 		} else if (urlParams !== '/') {
