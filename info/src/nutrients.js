@@ -773,18 +773,27 @@ export const nutrients = [
 		"name": "cis-beta-Carotene",
 		"unit_name": "UG",
 		"nutrient_nbr": 321.1,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1160,
 		"name": "cis-Lycopene",
 		"unit_name": "UG",
 		"nutrient_nbr": 337.1,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1161,
 		"name": "cis-Lutein/Zeaxanthin",
 		"unit_name": "UG",
 		"nutrient_nbr": 338.3,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1162,
@@ -988,36 +997,54 @@ export const nutrients = [
 		"name": "Choline, free",
 		"unit_name": "MG",
 		"nutrient_nbr": 450,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1195,
 		"name": "Choline, from phosphocholine",
 		"unit_name": "MG",
 		"nutrient_nbr": 451,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1196,
 		"name": "Choline, from phosphotidyl choline",
 		"unit_name": "MG",
 		"nutrient_nbr": 452,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1197,
 		"name": "Choline, from glycerophosphocholine",
 		"unit_name": "MG",
 		"nutrient_nbr": 453,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1198,
 		"name": "Betaine",
 		"unit_name": "MG",
 		"nutrient_nbr": 454,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1199,
 		"name": "Choline, from sphingomyelin",
 		"unit_name": "MG",
 		"nutrient_nbr": 455,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1210,
@@ -1170,7 +1197,6 @@ export const nutrients = [
 		"nutrient_nbr": 515,
 		"notes": [
 			"Precursor to glutamate",
-			"",
 		]
 	},
 	{
@@ -1185,7 +1211,6 @@ export const nutrients = [
 			"Inhibitory neurotransmitter",
 			"Used to create proteins",
 			"Facilitates conjugation of bile acids",
-
 		]
 	},
 	{
@@ -1532,6 +1557,9 @@ export const nutrients = [
 		"name": "14:1 t",
 		"unit_name": "G",
 		"nutrient_nbr": 821,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1283,
@@ -1610,18 +1638,27 @@ export const nutrients = [
 		"name": "Beta-sitostanol",
 		"unit_name": "MG",
 		"nutrient_nbr": 647,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1296,
 		"name": "Delta-5-avenasterol",
 		"unit_name": "MG",
 		"nutrient_nbr": 649,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1298,
 		"name": "Phytosterols, other",
 		"unit_name": "MG",
 		"nutrient_nbr": 651,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1299,
@@ -1637,6 +1674,9 @@ export const nutrients = [
 		"name": "17:0",
 		"unit_name": "G",
 		"nutrient_nbr": 653,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1301,
@@ -1652,42 +1692,63 @@ export const nutrients = [
 		"name": "16:1 t",
 		"unit_name": "G",
 		"nutrient_nbr": 662,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1304,
 		"name": "18:1 t",
 		"unit_name": "G",
 		"nutrient_nbr": 663,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1305,
 		"name": "22:1 t",
 		"unit_name": "G",
 		"nutrient_nbr": 664,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1306,
 		"name": "18:2 t not further defined",
 		"unit_name": "G",
 		"nutrient_nbr": 665,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1307,
 		"name": "18:2 i",
 		"unit_name": "G",
 		"nutrient_nbr": 666,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1310,
 		"name": "18:2 t,t",
 		"unit_name": "G",
 		"nutrient_nbr": 669,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1311,
 		"name": "18:2 CLAs",
 		"unit_name": "G",
 		"nutrient_nbr": 670,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1312,
@@ -1704,18 +1765,27 @@ export const nutrients = [
 		"name": "20:2 n-6 c,c",
 		"unit_name": "G",
 		"nutrient_nbr": 672,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1314,
 		"name": "16:1 c",
 		"unit_name": "G",
 		"nutrient_nbr": 673,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1315,
 		"name": "18:1 c",
 		"unit_name": "G",
 		"nutrient_nbr": 674,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1316,
@@ -1731,6 +1801,9 @@ export const nutrients = [
 		"name": "22:1 c",
 		"unit_name": "G",
 		"nutrient_nbr": 676,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1321,
@@ -1747,30 +1820,45 @@ export const nutrients = [
 		"name": "17:1",
 		"unit_name": "G",
 		"nutrient_nbr": 687,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1325,
 		"name": "20:3",
 		"unit_name": "G",
 		"nutrient_nbr": 689,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1329,
 		"name": "Fatty acids, total trans-monoenoic",
 		"unit_name": "G",
 		"nutrient_nbr": 693,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1330,
 		"name": "Fatty acids, total trans-dienoic",
 		"unit_name": "G",
 		"nutrient_nbr": 694,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1331,
 		"name": "Fatty acids, total trans-polyenoic",
 		"unit_name": "G",
 		"nutrient_nbr": 695,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1332,
@@ -1804,6 +1892,9 @@ export const nutrients = [
 		"name": "11:0",
 		"unit_name": "G",
 		"nutrient_nbr": 699,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1368,
@@ -1880,12 +1971,18 @@ export const nutrients = [
 		"name": "21:5",
 		"unit_name": "G",
 		"nutrient_nbr": 857,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1411,
 		"name": "22:4",
 		"unit_name": "G",
 		"nutrient_nbr": 858,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 1412,
@@ -1975,60 +2072,90 @@ export const nutrients = [
 		"name": "14:1 c",
 		"unit_name": "G",
 		"nutrient_nbr": 822,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2010,
 		"name": "17:1 c",
 		"unit_name": "G",
 		"nutrient_nbr": 825,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2012,
 		"name": "20:1 c",
 		"unit_name": "G",
 		"nutrient_nbr": 829,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2013,
 		"name": "20:1 t",
 		"unit_name": "G",
 		"nutrient_nbr": 830,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2014,
 		"name": "22:1 n-9",
 		"unit_name": "G",
 		"nutrient_nbr": 676.1,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2015,
 		"name": "22:1 n-11",
 		"unit_name": "G",
 		"nutrient_nbr": 676.2,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2016,
 		"name": "18:2 c",
 		"unit_name": "G",
 		"nutrient_nbr": 831,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2018,
 		"name": "18:3 c",
 		"unit_name": "G",
 		"nutrient_nbr": 833,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2019,
 		"name": "18:3 t",
 		"unit_name": "G",
 		"nutrient_nbr": 834,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2020,
 		"name": "20:3 c",
 		"unit_name": "G",
 		"nutrient_nbr": 835,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2021,
@@ -2045,12 +2172,18 @@ export const nutrients = [
 		"name": "20:4 c",
 		"unit_name": "G",
 		"nutrient_nbr": 836,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2023,
 		"name": "20:5 c",
 		"unit_name": "G",
 		"nutrient_nbr": 837,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2024,
@@ -2077,12 +2210,18 @@ export const nutrients = [
 		"name": "20:2 c",
 		"unit_name": "G",
 		"nutrient_nbr": 840,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2028,
 		"name": "trans-beta-Carotene",
 		"unit_name": "UG",
 		"nutrient_nbr": 321.2,
+		"notes": [
+			"~ research required",
+		]
 	},
 	{
 		"id": 2029,
