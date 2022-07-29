@@ -729,6 +729,7 @@ export const nutrients = [
 		"nutrient_nbr": 346,
 		"notes": [
 			"Vitamin E family",
+			""
 		]
 	},
 	{
@@ -1529,7 +1530,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 629,
 		"notes": [
-			"Eicosapentaenoic | tTmnodonic",
+			"Eicosapentaenoic | Icosapentaenoic | Timnodonic ",
 		]
 	},
 	{
@@ -1666,7 +1667,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 652,
 		"notes": [
-			"Pentadecanoic",
+			"Pentadecylic || Pentadecanoic",
 		]
 	},
 	{
@@ -2009,7 +2010,7 @@ export const nutrients = [
 		"unit_name": "G",
 		"nutrient_nbr": 269,
 		"notes": [
-			"Nutrition Labeling and Education Act of 1990 thing"
+			"Nutrition Labeling and Education Act of 1990"
 		]
 	},
 	{
@@ -2220,7 +2221,7 @@ export const nutrients = [
 		"unit_name": "UG",
 		"nutrient_nbr": 321.2,
 		"notes": [
-			"~ research required",
+			"https://wikipedia.org/wiki/B-Carotene",
 		]
 	},
 	{
