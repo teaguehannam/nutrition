@@ -1,11 +1,10 @@
 <!-- Load display components -->
-<!--  -->
 <script>
-	import Nutrients from './nutrients.svelte';
-	import Sweeteners from './sweeteners.svelte';
+	import Menu from './display/menu.svelte';
+	import Nutrients from './display/nutrients.svelte';
+	import Sweeteners from './display/sweeteners.svelte';
 </script>
 
-<main>
-	<!-- <Nutrients /> -->
-	<Sweeteners />
-</main>
+<Menu />
+<Nutrients />
+<Sweeteners />

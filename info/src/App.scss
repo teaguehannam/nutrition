@@ -1,9 +1,11 @@
+/* Global style*/
 html, body {
 	margin: 0;
 	padding: 0;
 }
 body {
 	background: url('../img/background/bg.png');
+	margin-bottom: 33vh;
 }
 h1 {
 	color: rgba(240,240,240,0.6);
@@ -15,3 +17,9 @@ h1 {
 	top: 0;
 	left: 0;
 }
+
+/* Component Styling */
+@import 
+	'style/nutrients',
+	'style/sweeteners',
+	'style/menu';

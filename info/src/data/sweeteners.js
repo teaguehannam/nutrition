@@ -23,7 +23,12 @@ export const sweeteners = [
 		"pubchem_id": 134601,
 		"sweetness": 200,
 		"notes": [
-			"Europe: Intense, low-calorie, artificial sweetner",
+			"Intense, low-calorie, artificial sweetner (Europe)",
+			"Combination of L-aspartic acid and methyl L-phenylalaninate",
+			"Nutraceutical",
+			"Xenobiotic",
+			"Apoptosis inhibitor",
+			"Alkaline Phosphate inhibitor",
 		]
 	},
 ]

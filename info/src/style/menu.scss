@@ -1,0 +1,23 @@
+
+header {
+	display: flex;
+	justify-content: space-around;
+	max-width: 600px;
+
+	a {
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 3.2rem;
+		font-size: calc(0.8rem + 0.4vw);
+		width: 100%;
+		background: rgb(30,31,33);
+		text-decoration: none;
+		box-shadow: 0 0 3px 0 rgb(120,120,120) inset;
+		color: rgba(192,202,222,0.8);
+
+		&:hover {
+			background: rgb(35,36,40);
+			color: rgb(192,202,222);
+		}
+	}
+}

@@ -1,35 +1,36 @@
 <!-- Displays nutrients data as table -->
 <script>
-	import './nutrients.scss';
 	import { onMount } from 'svelte'
 	import { writable } from 'svelte/store'
-	import { nutrients } from './nutrients.js' // JSON
+	import { nutrients } from '#data/nutrients.js'
 
 	const nutBuf = writable(nutrients);
 	let search = new String()
 
 	onMount(() => {
-		// set first part of path to search input 
+		// if path provided,
 		if (urlParams !== '/') {
 			search = decodeURI(urlParams.substring(1))
 			if (search.includes('_')) {
 				// change underscores to spaces
 				search = search.replace(/_/g, ' ');
 			}
-			hdlSearch() // filter nutrients based on search
+			// normalize text and set to search
+			hdlSearch()
 		}
 	})
 
 	function hdlSearch() {
-		// search nutrients for nutrient.name === search
+		// TODO:: Case insensitive
 		let filtered =  nutrients.filter(n => n.name.includes(search) );
+		// TODO:: If filtered.length === 0...
 		nutBuf.set(filtered);
 	}
 
 </script>
 
-<main>
-
+<main id="nutrients">
+	<h2>Nutrients</h2>
 	<table>
 		<tr>
 			<th>
@@ -50,3 +51,4 @@
 	</table>
 	
 </main>
+
