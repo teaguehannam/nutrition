@@ -1,6 +1,6 @@
 # Nutrient Info
 ### Features
-- [Interactive webpage for nutrients](https://nutrientinfo.app)
+- [Interactive webpage for nutrients](https://nutrition.teaguehannam.com)
 - API for nutrient data in JSON
 ---
 ### Data sources
