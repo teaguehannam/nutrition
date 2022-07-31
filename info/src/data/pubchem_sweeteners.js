@@ -1,5 +1,5 @@
 
-export const sweeteners = [
+export const pubchem_sweeteners = [
 	{
 		"name": "Sucrose",
 		"pubchem_id": 5988,

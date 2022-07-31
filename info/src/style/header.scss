@@ -1,17 +1,17 @@
+/* data selector */
 
 header {
 	display: flex;
-	justify-content: space-around;
 	max-width: 600px;
 
-	a {
+	button {
 		text-transform: uppercase;
 		text-align: center;
-		line-height: 3.2rem;
-		font-size: calc(0.8rem + 0.4vw);
-		width: 100%;
+		line-height: calc(3.2rem + 0.9vw);
+		font-size: calc(0.9rem + 0.3vw);
 		background: rgb(30,31,33);
 		text-decoration: none;
+		padding: 0 2vw;
 		box-shadow: 0 0 3px 0 rgb(120,120,120) inset;
 		color: rgba(192,202,222,0.8);
 
@@ -19,5 +19,9 @@ header {
 			background: rgb(35,36,40);
 			color: rgb(192,202,222);
 		}
+		&:active {
+			color: rgb(222,212,192);
+		}
+
 	}
 }

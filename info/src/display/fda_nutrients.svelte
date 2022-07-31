@@ -1,30 +1,16 @@
 <!-- Displays nutrients data as table -->
 <script>
-	import { onMount } from 'svelte'
 	import { writable } from 'svelte/store'
-	import { nutrients } from '#data/nutrients.js'
+	import { fda_nutrients } from '#data/fda_nutrients.js'
 
-	const nutBuf = writable(nutrients);
+	const tblData = writable(fda_nutrients);
 	let search = new String()
-
-	onMount(() => {
-		// if path provided,
-		if (urlParams !== '/') {
-			search = decodeURI(urlParams.substring(1))
-			if (search.includes('_')) {
-				// change underscores to spaces
-				search = search.replace(/_/g, ' ');
-			}
-			// normalize text and set to search
-			hdlSearch()
-		}
-	})
 
 	function hdlSearch() {
 		// TODO:: Case insensitive
-		let filtered =  nutrients.filter(n => n.name.includes(search) );
+		let filtered =  fda_nutrients.filter(n => n.name.includes(search) );
 		// TODO:: If filtered.length === 0...
-		nutBuf.set(filtered);
+		tblData.set(filtered);
 	}
 
 </script>
@@ -38,7 +24,7 @@
 			</th> 
 			<th>notes</th>
 		</tr>
-		{#each $nutBuf as nutrient}
+		{#each $tblData as nutrient}
 			<tr>
 				<td>{nutrient.name}</td>
 				<td class="Stacked">

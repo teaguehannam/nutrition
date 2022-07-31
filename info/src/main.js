@@ -1,7 +1,7 @@
 import App from './App.svelte' // Root Component
-import './App.scss' // Styling
+import './style/App.scss' // Root Styling
 
-// cybernetically enhance javascriptly
-const app = new App({ target: document.body })
+const app = new App({ target: document.body }) // cybernetically enhance
 
 export default app
+

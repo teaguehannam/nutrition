@@ -1,5 +1,5 @@
 
-export const nutrients = [
+export const fda_nutrients = [
 	{
 		"id": 1002,
 		"name": "Nitrogen",
@@ -165,7 +165,7 @@ export const nutrients = [
 		"unit_name": "MG",
 		"nutrient_nbr": 243,
 		"notes": [
-			"sour"
+			"sour",
 		]
 	},
 	{
